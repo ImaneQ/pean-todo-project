@@ -1,0 +1,48 @@
+<div class="container-fluid vh-100 col-md-12">
+  <div class="">
+    <h1>TODOS</h1>
+    <mat-card>
+      <mat-card-header>
+        <mat-card-title>New Todo</mat-card-title>
+      </mat-card-header>
+
+      <mat-card-content>
+        <form [formGroup]="todoForm" class="d-flex justify-content-evenly">
+          <mat-form-field class="example-full-width" appearance="outline">
+            <mat-label>Type todo text here ...</mat-label>
+            <input formControlName="description" matInput placeholder="Type todo text here ...">
+          </mat-form-field>
+          <button mat-raised-button class="vh-10" color="primary" (click)="addTodo()">
+            <mat-icon class="mat-18">add</mat-icon> Add
+          </button>
+        </form>
+      </mat-card-content>
+
+    </mat-card>
+  </div>
+
+
+
+  <mat-divider></mat-divider>
+  <span class="d-flex flex-row  justify-content-around w-50 mx-auto p-3 text-muted">
+    <h3>Description</h3>
+    <h3>Edit</h3>
+    <h3>Delete</h3>
+  </span>
+  <mat-divider></mat-divider>
+  <cdk-accordion class="example-accordion col-md-6 vh-100">
+    <cdk-accordion-item *ngFor="let item of arrayForTodos[0]" #accordionItem="cdkAccordionItem"
+      class="example-accordion-item vh-60 " role="button" tabindex="0" [attr.id]="'accordion-header-'"
+      [attr.aria-expanded]="accordionItem.expanded" [attr.aria-controls]="'accordion-body-'">
+      <div class="example-accordion-item-header d-flex">
+        {{ item.description }}
+        {{ item.todo_id }}
+        <mat-icon class="mat-18" class=" align-self-end" (click)="onOpenModal(item)">edit</mat-icon>
+        <mat-icon class="mat-18" (click)="deleteTask(item.todo_id)" color="warn">delete</mat-icon>
+      </div>
+    </cdk-accordion-item>
+  </cdk-accordion>
+</div>
+
+
+<!-- <button mat-stroked-button (click)="openSnackBar()">Show snack-bar</button> -->
