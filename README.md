@@ -1,27 +1,28 @@
-# PeanTodoProject
+# Hello ! 👋
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.6.
+# Projet PEAN (front-end)
 
-## Development server
+Voici un projet que j'ai réalisé dans le cadre de formation, dans le but d'approfondir mes connaissances en back-end et notamment en NodeJS. Ce projet YouTube est composé des langages PostgreSQL, Express, Angular et Node.js. Ce dépôt ne comprend qu'une partie front-end du projet, j'ai réalisé le projet avec Angular contrairement à la vidéo dont je me suis aidée qui utilise REACT. Voire la partie back-end dans le dépôt "backend". Voici le lien Youtube du projet: https://www.youtube.com/watch?v=ldYcgPKEZC8 
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Démarrage rapide
 
-## Code scaffolding
+Ces instructions vont vous permettre d'obtenir une copie fonctionnelle du projet sur votre poste de travail.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Prérequis
 
-## Build
+Afin de pouvoir exécuter l'application sur votre poste, vous devez d'aborder installer les dépendances suivantes: 
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Installation
 
-## Running unit tests
+1. Ouvrir une invite de commande.
+2. Taper `npm install -g @angular/cli`.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Exécution
 
-## Running end-to-end tests
+1. Ouvrir une invite de commande à la racine du projet.
+2. Exécuter la commande `ng serve`.
+3. Cliquer sur le lien indiqué après l'éxecution de la commande: http://localhost:4200/.
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+## 🛠 Skills
 
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+PostgreSQL, Express, Angular et Node.js
