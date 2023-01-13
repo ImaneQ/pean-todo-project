@@ -2,7 +2,7 @@
 
 # Projet PEAN (front-end)
 
-Voici un projet que j'ai réalisé dans le cadre de formation, dans le but d'approfondir mes connaissances et d'apprendre le CRUD. Ce projet YouTube est composé des langages PostgreSQL, Express, Angular et Node.js. Ce dépôt ne comprend que la partie front-end du projet, j'ai réalisé le projet avec Angular contrairement à la vidéo dont je me suis aidée qui utilise REACT. Voire la partie back-end dans le dépôt "backend". Voici le lien Youtube du projet: https://www.youtube.com/watch?v=ldYcgPKEZC8 
+Voici un projet que j'ai réalisé dans le cadre de formation, dans le but d'approfondir mes connaissances et d'apprendre le CRUD. Ce projet YouTube est composé des langages PostgreSQL, Express, Angular et Node.js. Ce dépôt ne comprend que la partie front-end du projet, j'ai réalisé le projet avec Angular contrairement à la vidéo dont je me suis aidée qui utilise REACT. Voire la partie back-end dans le dépôt "backend". Voici le lien Youtube du projet dont je me suis aidée: https://www.youtube.com/watch?v=ldYcgPKEZC8 
 
 ## Démarrage rapide
 
